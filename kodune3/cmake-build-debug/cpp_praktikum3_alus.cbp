@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_praktikum3_alus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_praktikum3_alus">
+				<Option output="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/cpp_praktikum3_alus.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_praktikum3_alus"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_praktikum3_alus/fast">
+				<Option output="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/cpp_praktikum3_alus.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_praktikum3_alus/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/.idea/cpp-praktikum3-alus.iml">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/.idea/modules.xml">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/.idea/workspace.xml">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/Line.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/Point.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/Polygon.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/Sphere.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/geometry.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Liitja.cpp">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Liitja.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Okaspuu.cpp">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Okaspuu.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Puu.cpp">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Puu.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Veider.cpp">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/prax/Veider.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/test.cpp">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/test.h">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/tests/geometrytest.cpp">
+			<Option target="cpp_praktikum3_alus"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

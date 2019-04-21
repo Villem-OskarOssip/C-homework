@@ -1,0 +1,132 @@
+\hypertarget{class_line2}{}\section{Line2 Class Reference}
+\label{class_line2}\index{Line2@{Line2}}
+
+
+Class for implementing a line.  
+
+
+
+
+{\ttfamily \#include $<$line2.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_line2_a064601d6fbf1cd8002e24cade29b07d6}{Line2}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_line2_afa9636d43e54ba41fb108207a83aad1a}{Line2}} (\mbox{\hyperlink{class_point2}{Point2}} np1, \mbox{\hyperlink{class_point2}{Point2}} np2)
+\begin{DoxyCompactList}\small\item\em Line constructor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_line2_aa9216f71f2684ccff858dadf26bdad8f}{length}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the length of a line. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point2}{Point2}} \mbox{\hyperlink{class_line2_a050658f54921e102d7ce6ae59a03584e}{p1}}
+\begin{DoxyCompactList}\small\item\em Starting coordinate of a line. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point2}{Point2}} \mbox{\hyperlink{class_line2_a5bc874958132ebdc2fe18aced3a35e72}{p2}}
+\begin{DoxyCompactList}\small\item\em End coordinate of a line. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_line2_a2e9995cceed69d45eebc94c64526dd0b}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{class_line2}{Line2}} \&l)
+\begin{DoxyCompactList}\small\item\em Prints the info of the line as a tuple (p1, p2) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for implementing a line. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_line2_a064601d6fbf1cd8002e24cade29b07d6}\label{class_line2_a064601d6fbf1cd8002e24cade29b07d6}} 
+\index{Line2@{Line2}!Line2@{Line2}}
+\index{Line2@{Line2}!Line2@{Line2}}
+\subsubsection{\texorpdfstring{Line2()}{Line2()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Line2\+::\+Line2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. 
+
+\mbox{\Hypertarget{class_line2_afa9636d43e54ba41fb108207a83aad1a}\label{class_line2_afa9636d43e54ba41fb108207a83aad1a}} 
+\index{Line2@{Line2}!Line2@{Line2}}
+\index{Line2@{Line2}!Line2@{Line2}}
+\subsubsection{\texorpdfstring{Line2()}{Line2()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Line2\+::\+Line2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point2}{Point2}}}]{np1,  }\item[{\mbox{\hyperlink{class_point2}{Point2}}}]{np2 }\end{DoxyParamCaption})}
+
+
+
+Line constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em np1} & starting point of a line \\
+\hline
+{\em np2} & ending point of a line \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_line2_aa9216f71f2684ccff858dadf26bdad8f}\label{class_line2_aa9216f71f2684ccff858dadf26bdad8f}} 
+\index{Line2@{Line2}!length@{length}}
+\index{length@{length}!Line2@{Line2}}
+\subsubsection{\texorpdfstring{length()}{length()}}
+{\footnotesize\ttfamily float Line2\+::length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates the length of a line. 
+
+\begin{DoxyReturn}{Returns}
+the length of a line 
+\end{DoxyReturn}
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_line2_a2e9995cceed69d45eebc94c64526dd0b}\label{class_line2_a2e9995cceed69d45eebc94c64526dd0b}} 
+\index{Line2@{Line2}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Line2@{Line2}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_line2}{Line2}} \&}]{l }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Prints the info of the line as a tuple (p1, p2) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em l} & line \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_line2_a050658f54921e102d7ce6ae59a03584e}\label{class_line2_a050658f54921e102d7ce6ae59a03584e}} 
+\index{Line2@{Line2}!p1@{p1}}
+\index{p1@{p1}!Line2@{Line2}}
+\subsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point2}{Point2}} Line2\+::p1}
+
+
+
+Starting coordinate of a line. 
+
+\mbox{\Hypertarget{class_line2_a5bc874958132ebdc2fe18aced3a35e72}\label{class_line2_a5bc874958132ebdc2fe18aced3a35e72}} 
+\index{Line2@{Line2}!p2@{p2}}
+\index{p2@{p2}!Line2@{Line2}}
+\subsubsection{\texorpdfstring{p2}{p2}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point2}{Point2}} Line2\+::p2}
+
+
+
+End coordinate of a line. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/line2.\+h\end{DoxyCompactItemize}

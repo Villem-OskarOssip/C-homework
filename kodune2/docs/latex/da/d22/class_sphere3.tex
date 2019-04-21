@@ -1,0 +1,219 @@
+\hypertarget{class_sphere3}{}\section{Sphere3 Class Reference}
+\label{class_sphere3}\index{Sphere3@{Sphere3}}
+
+
+Class for implementing a sphere.  
+
+
+
+
+{\ttfamily \#include $<$sphere3.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sphere3_af70e61fde5085502a572acb306f968cd}{Sphere3}} (\mbox{\hyperlink{class_point3}{Point3}} np1, float nr)
+\begin{DoxyCompactList}\small\item\em Constructor for a sphere. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_sphere3_a0231ba10d45f03ca7ab21cbd525339f5}{Sphere3}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. Sets the centre point to (0, 0, 0) and the radius to 0. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_sphere3_af78dd4f8db67d9492926a7cec73c000e}{circumference}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the circumference of the sphere. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_sphere3_a9921044730d62a06748f74bfa33512fe}{area}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the area of the sphere. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_sphere3_af89fd0ff023ebedc783e9740554b32d7}{volume}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the volume of the sphere. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_sphere3_a1fa38a829efe96d578cf08a99849a200}{contains}} (\mbox{\hyperlink{class_point3}{Point3}} p)
+\begin{DoxyCompactList}\small\item\em Check if the sphere contains a point (inside sphere) \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_sphere3_aa03cfcb0166fa5a928b07e1ef1c2a9b5}{contains}} (\mbox{\hyperlink{class_line3}{Line3}} l)
+\begin{DoxyCompactList}\small\item\em Check if a sphere contains a line. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sphere3_a1662d09d54495302fd96dd888961a706}{scale}} (float factor)
+\begin{DoxyCompactList}\small\item\em Scales the radius of the sphere by a desired factor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_sphere3_a9d708aaaae110ad37288b3471293fd01}{r}}
+\begin{DoxyCompactList}\small\item\em The radius of a sphere. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point3}{Point3}} \mbox{\hyperlink{class_sphere3_a87caaa2b273128ff6b76d4c4dc84c785}{p1}}
+\begin{DoxyCompactList}\small\item\em The centre point of a sphere. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_sphere3_aa9adc2f852a9caf9692f1718f8d3a5c9}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{class_sphere3}{Sphere3}} \&c)
+\begin{DoxyCompactList}\small\item\em Prints the info of the sphere as a tuple (centre, radius) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for implementing a sphere. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_sphere3_af70e61fde5085502a572acb306f968cd}\label{class_sphere3_af70e61fde5085502a572acb306f968cd}} 
+\index{Sphere3@{Sphere3}!Sphere3@{Sphere3}}
+\index{Sphere3@{Sphere3}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{Sphere3()}{Sphere3()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Sphere3\+::\+Sphere3 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point3}{Point3}}}]{np1,  }\item[{float}]{nr }\end{DoxyParamCaption})}
+
+
+
+Constructor for a sphere. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em np1} & desired sphere point \\
+\hline
+{\em nr} & desired radius \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sphere3_a0231ba10d45f03ca7ab21cbd525339f5}\label{class_sphere3_a0231ba10d45f03ca7ab21cbd525339f5}} 
+\index{Sphere3@{Sphere3}!Sphere3@{Sphere3}}
+\index{Sphere3@{Sphere3}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{Sphere3()}{Sphere3()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Sphere3\+::\+Sphere3 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. Sets the centre point to (0, 0, 0) and the radius to 0. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sphere3_a9921044730d62a06748f74bfa33512fe}\label{class_sphere3_a9921044730d62a06748f74bfa33512fe}} 
+\index{Sphere3@{Sphere3}!area@{area}}
+\index{area@{area}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{area()}{area()}}
+{\footnotesize\ttfamily float Sphere3\+::area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates the area of the sphere. 
+
+\begin{DoxyReturn}{Returns}
+the area of the sphere 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_sphere3_af78dd4f8db67d9492926a7cec73c000e}\label{class_sphere3_af78dd4f8db67d9492926a7cec73c000e}} 
+\index{Sphere3@{Sphere3}!circumference@{circumference}}
+\index{circumference@{circumference}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{circumference()}{circumference()}}
+{\footnotesize\ttfamily float Sphere3\+::circumference (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates the circumference of the sphere. 
+
+\begin{DoxyReturn}{Returns}
+circumference of the sphere 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_sphere3_a1fa38a829efe96d578cf08a99849a200}\label{class_sphere3_a1fa38a829efe96d578cf08a99849a200}} 
+\index{Sphere3@{Sphere3}!contains@{contains}}
+\index{contains@{contains}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{contains()}{contains()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Sphere3\+::contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point3}{Point3}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Check if the sphere contains a point (inside sphere) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point to be checked \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the sphere contains the point, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_sphere3_aa03cfcb0166fa5a928b07e1ef1c2a9b5}\label{class_sphere3_aa03cfcb0166fa5a928b07e1ef1c2a9b5}} 
+\index{Sphere3@{Sphere3}!contains@{contains}}
+\index{contains@{contains}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{contains()}{contains()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Sphere3\+::contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_line3}{Line3}}}]{l }\end{DoxyParamCaption})}
+
+
+
+Check if a sphere contains a line. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & the line in question \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the sphere contains the point, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_sphere3_a1662d09d54495302fd96dd888961a706}\label{class_sphere3_a1662d09d54495302fd96dd888961a706}} 
+\index{Sphere3@{Sphere3}!scale@{scale}}
+\index{scale@{scale}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{scale()}{scale()}}
+{\footnotesize\ttfamily void Sphere3\+::scale (\begin{DoxyParamCaption}\item[{float}]{factor }\end{DoxyParamCaption})}
+
+
+
+Scales the radius of the sphere by a desired factor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & desired factor \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sphere3_af89fd0ff023ebedc783e9740554b32d7}\label{class_sphere3_af89fd0ff023ebedc783e9740554b32d7}} 
+\index{Sphere3@{Sphere3}!volume@{volume}}
+\index{volume@{volume}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{volume()}{volume()}}
+{\footnotesize\ttfamily float Sphere3\+::volume (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates the volume of the sphere. 
+
+\begin{DoxyReturn}{Returns}
+the area of the sphere 
+\end{DoxyReturn}
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_sphere3_aa9adc2f852a9caf9692f1718f8d3a5c9}\label{class_sphere3_aa9adc2f852a9caf9692f1718f8d3a5c9}} 
+\index{Sphere3@{Sphere3}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_sphere3}{Sphere3}} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Prints the info of the sphere as a tuple (centre, radius) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em c} & Sphere \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_sphere3_a87caaa2b273128ff6b76d4c4dc84c785}\label{class_sphere3_a87caaa2b273128ff6b76d4c4dc84c785}} 
+\index{Sphere3@{Sphere3}!p1@{p1}}
+\index{p1@{p1}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point3}{Point3}} Sphere3\+::p1}
+
+
+
+The centre point of a sphere. 
+
+\mbox{\Hypertarget{class_sphere3_a9d708aaaae110ad37288b3471293fd01}\label{class_sphere3_a9d708aaaae110ad37288b3471293fd01}} 
+\index{Sphere3@{Sphere3}!r@{r}}
+\index{r@{r}!Sphere3@{Sphere3}}
+\subsubsection{\texorpdfstring{r}{r}}
+{\footnotesize\ttfamily float Sphere3\+::r}
+
+
+
+The radius of a sphere. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/sphere3.\+h\end{DoxyCompactItemize}

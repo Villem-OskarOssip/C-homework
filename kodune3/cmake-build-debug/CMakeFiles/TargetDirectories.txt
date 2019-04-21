@@ -1,0 +1,3 @@
+/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/Mark/Desktop/C++/cpp-praktikum3-alus/cmake-build-debug/CMakeFiles/cpp_praktikum3_alus.dir

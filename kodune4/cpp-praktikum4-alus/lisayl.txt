@@ -1,0 +1,13 @@
+1. Mis juhtub, kui mõni tipp, millele sirglõigud viitavad, hävineb?
+
+Need muutujad, mis viitavad sellele tipule, jäävad ikkagi alles selle hetkeni, mil programm selle mäluaadressi,
+kus need muutujad asuvad vabastab. Küll aga ei saa neid muutujaid, mis viitavad hävinud tipule enam kasutada seni kuni
+hävinud tipule uus väärtus antakse. (Selle viida seisundi nimi on 'dangling')
+
+2. Kuidas võiks tipu destruktor teada, millistes sirglõikudes ta esineb?
+
+Vastava koopia- ja omistamiskonstruktori abil.
+
+3. Mida võiks tipu destruktor teha, et olukorda parandada?
+
+Olla virtuaalne

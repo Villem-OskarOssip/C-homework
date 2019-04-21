@@ -1,0 +1,204 @@
+\hypertarget{class_circle2}{}\section{Circle2 Class Reference}
+\label{class_circle2}\index{Circle2@{Circle2}}
+
+
+Class for implementing a circle.  
+
+
+
+
+{\ttfamily \#include $<$circle2.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_circle2_aab13bf273807eb9d24724d84a06c0a00}{Circle2}} (\mbox{\hyperlink{class_point2}{Point2}} np1, float nr)
+\begin{DoxyCompactList}\small\item\em Constructor for a circle. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_circle2_ac91654502ff614ede1a5c98e31deaf05}{Circle2}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor. Sets the centre point to (0, 0) and the radius to 0. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_circle2_accd5087218bd9bb180e9073b416c5a8c}{circumference}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the circumference of the circle. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_circle2_a18033c62bad2cb9c815734ea0f6a6c7f}{area}} ()
+\begin{DoxyCompactList}\small\item\em Calculates the area of the circle. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_circle2_adfff11a508b38dc893d8ed5ba6fbecd7}{contains}} (\mbox{\hyperlink{class_point2}{Point2}} p)
+\begin{DoxyCompactList}\small\item\em Check if the circle contains a point. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_circle2_ad79e383e3e070f5884c61fc8753627c0}{contains}} (\mbox{\hyperlink{class_line2}{Line2}} l)
+\begin{DoxyCompactList}\small\item\em Check if a circle contains a line. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_circle2_aef5dc310f0f5bc259e49b5c44dee40b9}{scale}} (float factor)
+\begin{DoxyCompactList}\small\item\em Scales the radius of the circle by a desired factor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+float \mbox{\hyperlink{class_circle2_a3529394e7c9960e081b726fb9f7a27cb}{r}}
+\begin{DoxyCompactList}\small\item\em The radius of a circle. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_point2}{Point2}} \mbox{\hyperlink{class_circle2_ae041646719f802ae427599e07a61a513}{p1}}
+\begin{DoxyCompactList}\small\item\em The centre point of a circle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{class_circle2_a4ccba61b3b68a4c389c0ec160f975b2b}{operator$<$$<$}} (ostream \&out, const \mbox{\hyperlink{class_circle2}{Circle2}} \&c)
+\begin{DoxyCompactList}\small\item\em Prints the info of the circle as a tuple (centre, radius) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class for implementing a circle. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_circle2_aab13bf273807eb9d24724d84a06c0a00}\label{class_circle2_aab13bf273807eb9d24724d84a06c0a00}} 
+\index{Circle2@{Circle2}!Circle2@{Circle2}}
+\index{Circle2@{Circle2}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{Circle2()}{Circle2()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Circle2\+::\+Circle2 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point2}{Point2}}}]{np1,  }\item[{float}]{nr }\end{DoxyParamCaption})}
+
+
+
+Constructor for a circle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em np1} & desired centre point \\
+\hline
+{\em nr} & desired radius \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_circle2_ac91654502ff614ede1a5c98e31deaf05}\label{class_circle2_ac91654502ff614ede1a5c98e31deaf05}} 
+\index{Circle2@{Circle2}!Circle2@{Circle2}}
+\index{Circle2@{Circle2}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{Circle2()}{Circle2()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Circle2\+::\+Circle2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor. Sets the centre point to (0, 0) and the radius to 0. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_circle2_a18033c62bad2cb9c815734ea0f6a6c7f}\label{class_circle2_a18033c62bad2cb9c815734ea0f6a6c7f}} 
+\index{Circle2@{Circle2}!area@{area}}
+\index{area@{area}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{area()}{area()}}
+{\footnotesize\ttfamily float Circle2\+::area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates the area of the circle. 
+
+\begin{DoxyReturn}{Returns}
+the area of the circle 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_circle2_accd5087218bd9bb180e9073b416c5a8c}\label{class_circle2_accd5087218bd9bb180e9073b416c5a8c}} 
+\index{Circle2@{Circle2}!circumference@{circumference}}
+\index{circumference@{circumference}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{circumference()}{circumference()}}
+{\footnotesize\ttfamily float Circle2\+::circumference (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates the circumference of the circle. 
+
+\begin{DoxyReturn}{Returns}
+circumference of the circle 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_circle2_adfff11a508b38dc893d8ed5ba6fbecd7}\label{class_circle2_adfff11a508b38dc893d8ed5ba6fbecd7}} 
+\index{Circle2@{Circle2}!contains@{contains}}
+\index{contains@{contains}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{contains()}{contains()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Circle2\+::contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point2}{Point2}}}]{p }\end{DoxyParamCaption})}
+
+
+
+Check if the circle contains a point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & the point to be checked \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the circle contains the point, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_circle2_ad79e383e3e070f5884c61fc8753627c0}\label{class_circle2_ad79e383e3e070f5884c61fc8753627c0}} 
+\index{Circle2@{Circle2}!contains@{contains}}
+\index{contains@{contains}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{contains()}{contains()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Circle2\+::contains (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_line2}{Line2}}}]{l }\end{DoxyParamCaption})}
+
+
+
+Check if a circle contains a line. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em l} & the line in question \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the circle contains the point, false otherwise 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_circle2_aef5dc310f0f5bc259e49b5c44dee40b9}\label{class_circle2_aef5dc310f0f5bc259e49b5c44dee40b9}} 
+\index{Circle2@{Circle2}!scale@{scale}}
+\index{scale@{scale}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{scale()}{scale()}}
+{\footnotesize\ttfamily void Circle2\+::scale (\begin{DoxyParamCaption}\item[{float}]{factor }\end{DoxyParamCaption})}
+
+
+
+Scales the radius of the circle by a desired factor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em factor} & desired factor \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_circle2_a4ccba61b3b68a4c389c0ec160f975b2b}\label{class_circle2_a4ccba61b3b68a4c389c0ec160f975b2b}} 
+\index{Circle2@{Circle2}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{out,  }\item[{const \mbox{\hyperlink{class_circle2}{Circle2}} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Prints the info of the circle as a tuple (centre, radius) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em out} & \\
+\hline
+{\em c} & Circle \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+\subsection{Field Documentation}
+\mbox{\Hypertarget{class_circle2_ae041646719f802ae427599e07a61a513}\label{class_circle2_ae041646719f802ae427599e07a61a513}} 
+\index{Circle2@{Circle2}!p1@{p1}}
+\index{p1@{p1}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point2}{Point2}} Circle2\+::p1}
+
+
+
+The centre point of a circle. 
+
+\mbox{\Hypertarget{class_circle2_a3529394e7c9960e081b726fb9f7a27cb}\label{class_circle2_a3529394e7c9960e081b726fb9f7a27cb}} 
+\index{Circle2@{Circle2}!r@{r}}
+\index{r@{r}!Circle2@{Circle2}}
+\subsubsection{\texorpdfstring{r}{r}}
+{\footnotesize\ttfamily float Circle2\+::r}
+
+
+
+The radius of a circle. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/circle2.\+h\end{DoxyCompactItemize}
