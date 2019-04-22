@@ -20,6 +20,7 @@ class MainWindow: public QMainWindow {
             QAction *m_moveVertexAction;
             QAction *m_deleteVertexAction;
             QAction *m_deleteLineAction;
+         void statusInfo();
          int points = 0;
          int lines = 0;
 
@@ -30,7 +31,6 @@ class MainWindow: public QMainWindow {
         void startAddingLines();
         void startDeletingLines();
         void initStatusBar();
-        void statusInfo();
 
     protected:
         void initMenus();

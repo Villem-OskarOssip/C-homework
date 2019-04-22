@@ -51,6 +51,7 @@ void DrawingWidget::mousePressEvent(QMouseEvent *event){
                 pointList.push_back(v);
                 m_mainWindow->points = m_mainWindow->points + 1;
             }
+            m_mainWindow->statusInfo();
             update();
 
     }
@@ -75,6 +76,7 @@ void DrawingWidget::mousePressEvent(QMouseEvent *event){
 
             }
         }
+        m_mainWindow->statusInfo();
         update();
     }
     if (m_state == ADD_LINE_SELECTED){
@@ -82,12 +84,14 @@ void DrawingWidget::mousePressEvent(QMouseEvent *event){
             if (v->distanceFrom(event->x(), event->y()) <= 10){
                 if (m_vector == nullptr){
                     m_vector = v;
+                    m_mainWindow->statusInfo();
                     update();
                 } else{
                     DynamicLine *line = new DynamicLine(m_vector, v);
                     lineList.push_back(line);
                     m_mainWindow->lines++;
                     m_vector = nullptr;
+                    m_mainWindow->statusInfo();
                     update();
                 }
             }
@@ -95,11 +99,16 @@ void DrawingWidget::mousePressEvent(QMouseEvent *event){
     }
     if (m_state == DELETE_LINE_SELECTED){
         foreach(DynamicLine *line, lineList){
-            if (line->p1->distanceFrom(event->x(), event->y() <= 20) ||
-                    line->p2->distanceFrom(event->x(), event->y()<=20)){
+            Vector2 *vert1 = line->p1;
+            Vector2 *vert2 = line->p2;
+            float distance1 = vert1->distanceFrom(event->x(), event->y());
+            float distance2 = vert2->distanceFrom(event->x(), event->y());
+            float distance3 = vert1->distanceFrom(vert2->x, vert2->y);
+            if (distance1 + distance2 <= distance3 ||
+                    distance1 + distance2 <= distance3 +1){
                 lineList.remove(line);
                 m_mainWindow->lines--;
-                delete line;
+                m_mainWindow->statusInfo();
                 update();
             }
         }
@@ -110,8 +119,9 @@ void DrawingWidget::mousePressEvent(QMouseEvent *event){
 }
     void DrawingWidget::mouseMoveEvent(QMouseEvent *event){
         if (m_state == MOVE_VERTEX_SELECTED && m_vector != nullptr){
-            m_vector->x=event->x();
-            m_vector->y=event->y();
+            if (event->x() < 800 && event->x() >0) m_vector->x=event->x();
+            if (event->y() < 560 && event->y() >0) m_vector->y=event->y();
+            m_mainWindow->statusInfo();
             update();
         }
     }
@@ -125,6 +135,7 @@ void DrawingWidget::mousePressEvent(QMouseEvent *event){
             }
             if (!inProximity){
                 m_vector = nullptr;
+                m_mainWindow->statusInfo();
                 update();
             }else {
                event->ignore();

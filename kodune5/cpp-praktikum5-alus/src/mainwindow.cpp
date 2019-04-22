@@ -115,23 +115,31 @@ void MainWindow::startAddingVertices(){
 }
 
 void MainWindow::moveVertices(){
-    m_drawingWidget->setState(MOVE_VERTEX_SELECTED);
-    m_statusLeft->setText("Moving vertices");
+    if (points != 0){
+        m_drawingWidget->setState(MOVE_VERTEX_SELECTED);
+        m_statusLeft->setText("Moving vertices");
+    }
 }
 
 void MainWindow::startDeletingVertices(){
-    m_drawingWidget->setState(DELETE_VERTEX_SELECTED);
-    m_statusLeft->setText("Deleting vertices");
+    if (points != 0){
+        m_drawingWidget->setState(DELETE_VERTEX_SELECTED);
+        m_statusLeft->setText("Deleting vertices");
+    }
 }
 
 void MainWindow::startAddingLines(){
-    m_drawingWidget->setState(ADD_LINE_SELECTED);
-    m_statusLeft->setText("Adding lines");
+    if (points >= 2){
+        m_drawingWidget->setState(ADD_LINE_SELECTED);
+        m_statusLeft->setText("Adding lines");
+    }
 }
 
 void MainWindow::startDeletingLines(){
-    m_drawingWidget->setState(DELETE_LINE_SELECTED);
-    m_statusLeft->setText("Deleting lines");
+    if (lines != 0) {
+        m_drawingWidget->setState(DELETE_LINE_SELECTED);
+        m_statusLeft->setText("Deleting lines");
+    }
 }
 
 void MainWindow::statusInfo(){
